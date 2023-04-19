@@ -72,7 +72,7 @@ plt.title('laplacian')
 plt.show()
 
 # CANNY EDGE DETECTOR
-canny_edges = cv2.Canny(gray, 120, 150)
+canny_edges = cv2.Canny(gray, 110, 140)
 plt.imshow(canny_edges,cmap='gray')
 plt.title('canny_edges')
 plt.show()
